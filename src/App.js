@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import AuthContainer from './components/AuthContainer';
+import Quiz from './components/Quiz';
+import PersonalityForm from './components/PersonalityForm';
+import DataSeeder from './components/DataSeeder';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Welcome to Career Recommendation</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Your journey to finding the perfect career path starts here!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <main>
+        <div className="auth-section">
+          <AuthContainer />
+        </div>
+        <div className="personality-section">
+          <PersonalityForm />
+        </div>
+        <div className="quiz-section">
+          <Quiz />
+        </div>
+        <div className="firebase-container">
+          <DataSeeder />
+        </div>
+      </main>
     </div>
   );
 }
