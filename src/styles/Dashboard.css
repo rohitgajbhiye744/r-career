@@ -1,0 +1,49 @@
+.career-explanation {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 10px 0;
+  line-height: 1.5;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  border-left: 4px solid #007bff;
+}
+
+.alternative-careers {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.alternative-careers h5 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.alternative-careers ul {
+  list-style: none;
+  padding: 0;
+}
+
+.alternative-careers li {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.alternative-careers li strong {
+  color: #2c3e50;
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.alternative-careers .career-explanation {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  background-color: #f8f9fa;
+  border-left-color: #28a745;
+} 

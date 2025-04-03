@@ -15,8 +15,8 @@ import pandas as pd
 import numpy as np
 
 app = Flask(__name__)
-# Configure CORS to allow requests from your Firebase app
-CORS(app, origins=["https://r-career-fe999.web.app", "http://localhost:3000"])
+# Configure CORS to allow requests from both production and development environments
+CORS(app, origins=["https://r-career-fe999.web.app", "http://localhost:3000", "http://127.0.0.1:3000"])
 
 # Traits expected by the model
 EXPECTED_TRAITS = [
